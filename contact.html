@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Contact Page</title>
+    </head>
+    <body>
+        <h1>Contact Page</h1>
+        <form action = "submit.php" method = "POST">
+            <label for = "first-name">
+                First Name
+                <input type = "text" name = "first-name"
+                placeholder = "Enter your first name...">
+                <br>
+            </label>
+            <label for = "last-name">
+                Last Name
+                <input type = "text" name = "last-name"
+                placeholder = "Enter your last name...">
+                <br>
+            </label>
+            <label for = "your Email">
+                Email Address 
+                <input type = "text" name = "your Email"
+                placeholder = "Enter your email Address...">
+                <br>
+                <br>
+            </label>
+            <label for = "subscribe">
+                <input type = "checkbox" name = "subscribe">
+                I'd like to receive e-mail newsletters and I have read the 
+                <a href = "#"></a>
+                Terms of service.
+            </label>
+            <label for = "date-picker">
+                Pick a Date
+                <input type = "date" name ="date-picker">
+                <br>
+                <br>
+            </label>
+            <label for = "category">
+                Pick a Category 
+                <select name = "category">
+                    <option value = "Horror">Horror</option>
+                    <option value = "Documentary">Documentary</option>
+                    <option value = "Comedy">Comedy</option>
+                    <option value = "Action">Action</option>
+                </select>
+            </label>
+            <label>
+                <label for = "time of day">
+                    <label>
+                         <input type = "radio" name = "time of day" value = "morning">Morning
+                    </label>
+                    <label>
+                         <input type = "radio" name = "time of day" value = "afternoon">Afternoon
+                    </label>
+                    <label>
+                         <input type = "radio" name = "time of day" value = "evening">Evening
+                    </label>
+                    <br>
+                    <br>
+                    <br>
+            </label>
+            <input type = "Submit" value = "Submit form">
+        </form>
+    </body>
+</html>
